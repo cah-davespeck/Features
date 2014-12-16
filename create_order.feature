@@ -6,7 +6,7 @@ So that I ...
 
 Background:
 Given I am a user of Assist
-And I am on the XXXXX page
+And I am on the YYYY page
 And I have XXXXX
 
 Scenario: Create an order
