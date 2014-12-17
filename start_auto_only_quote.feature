@@ -1,4 +1,4 @@
-Feature: Start a quote
+Feature: Start an Auto quote
 
 As a potential customer
 I want to receive an insurance quote
@@ -12,13 +12,7 @@ Scenario: Select Auto
 Given I have provided a zip code
 When I submit the form
 Then tell me that I can bundle other products with Auto
-When I select an additional product
-Then show me the name and address page
-
-Scenario: Select Auto and one other product
-Given I have provided a zip code
-And I have selected Renters
-When I submit the form
+When I select 'No Thanks'
 Then show me the name and address page
 
 Scenario: Invalid zip code
