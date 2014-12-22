@@ -1,4 +1,4 @@
-Feature:  Identify the customer vehicles based on personal data
+Feature:  Identify the customer's vehicles based on their personal data
 
 As a potential customer
 I want to provide information about myself
